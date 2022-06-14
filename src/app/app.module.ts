@@ -12,6 +12,7 @@ import { UserComponent } from './userComponent/user.component';
 
 @NgModule({
   imports: [
+    
     BrowserModule,
     FormsModule,
     MatSliderModule,
