@@ -1,0 +1,11 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+
+<p>slider</p>
+<!--crea uno slider-->
+<mat-slider min="1" max="100" step="1" value="50"></mat-slider>
+
+<!--creo i bottoni per far comparire il pop-up-->
+<button mat-raised-button (click)="openDialog('0ms', '0ms')">Open dialog without animation</button>
+<button mat-raised-button (click)="openDialog('3000ms', '1500ms')">Open dialog slowly</button>
+
